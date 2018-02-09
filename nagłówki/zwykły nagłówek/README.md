@@ -1,0 +1,1 @@
+Prosty nagłówek z logiem codeberry. 
