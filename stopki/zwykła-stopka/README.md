@@ -1,0 +1,1 @@
+Pierwsza, prosta stopka na stronę internetową. Zawiera kod html oraz CSS. 
