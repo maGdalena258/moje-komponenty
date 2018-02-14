@@ -1,0 +1,289 @@
+/*Ogólne style*/
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 2rem;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  text-align: center;
+  color: #444349;
+}
+
+.location, .program, .gifts, .questions, .contact {
+  margin: 3rem auto;
+  padding: .5rem 1rem;
+  width: 95%;
+}
+
+.naglowek, h2, h3 {
+  font-family: Lora, Times New Roma, fantasy, Arial, cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  
+  
+}
+
+h1 {
+  font-weight: bold;
+  font-family: Dancing Script, Times New Roman, Arial, serif; 
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+/*header style*/
+
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  text-align: center;
+  display: table;
+  
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 2rem 0.1rem;
+}
+
+.byline {
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  padding: 1rem 0;
+  box-shadow: hsl(1, 10%, 2%) 1px 10px 100px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  
+}
+
+.headline {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 1px #000000;
+  margin-top: 2rem;
+}
+
+.date {
+  font-size: 1.3rem;
+}
+
+.naglowek {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fff;
+  border-bottom: 1px solid; 
+  margin: auto 10%;
+}
+
+@media (min-width: 798px) {
+  .byline {
+    display: block;
+    width: 70%;
+    padding: 1rem 0;
+    margin: 0 auto; 
+    
+  }
+}
+
+/*Location style*/
+
+section h1 {
+  font-family: Dancing Script, Indie Flower, Arial, serif;
+  text-transform: uppercase;
+  line-height: 4rem;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  font-family: Dancing Script, Indie Flower, Arial, serif;
+  line-height: 2rem;
+  font-size: 3rem;
+}
+
+section h3 {
+  font-family: Indie Flower, Arial, serif;
+  font-size: 1.5rem; 
+  line-height: 1.5rem;
+}
+
+.blurb {
+  margin-bottom: 3rem;
+  display: inline-block;
+  padding: 0 2rem 0 2rem;
+  
+}
+
+.location img {
+  width: 40px;
+  height: calc(10vh-40px);
+  margin: -50px auto;
+  position: relative;
+  top: -100px;
+  left: -140px;
+}
+
+
+/* Program style */
+
+.program {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  margin-top: -3rem;
+}
+
+.program h1 {
+  margin-top: 3rem;
+}
+
+.program p {
+  font-size: 1.5rem;
+  color: #ccc;
+  font-style: italic; 
+  
+}
+
+p, ul {
+  font-family: Indie Flower, Arial, sans-serif;
+}
+
+ul {
+  font-size: 1.5rem;
+    line-height: 2rem;
+  color: #ccc;
+  text-align: left;
+}
+
+/* gifts style */
+
+.gifts p {
+  font-size: 1.5rem;
+}
+
+.gifts img {
+  width: 30%;
+  height: 30%
+}
+
+/* Questions style */
+
+.questions {
+  background: hsla(100,0%,0%,.6);
+  margin-top: -3rem;
+  width: 100vw;
+}
+
+
+.questions h1 {
+  margin-top: 3rem;
+  color: #d2ba87;
+}
+
+.questions h2 {
+  color: #d2ba87;
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.question {
+  font-size: 1.3rem;
+  font-weight: 2000;
+  color: #ccc;
+  text-align: left;
+}
+
+.answer {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+  line-height: 1.8rem;
+  padding: auto 4%;
+  text-align: left;
+}
+
+.wrapp::after {
+  content:"";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+}
+
+@media (min-width: 798px){
+  .wrapp {
+    display: inline-block;
+    width: 30vw;
+    vertical-align: top;
+    margin: auto 0.4rem
+   }
+
+  .wrapp::after {
+    display: none;
+  }
+}
+
+/*contant style*/
+
+.contact {
+  margin-bottom: 0;
+}
+
+.contact p {
+  font-size: 1.3rem;
+}
+
+/*footer style*/
+
+footer {
+  font-size: 0.875rem;
+  width: 100vw;
+  height: 20vh;
+  background-color: hsla(100,0%,0%,.6);
+  color: #ccc;
+  display: table;
+  text-align: center;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0.5rem 2rem;
+}
+
+footer p {
+  margin-bottom: 0; 
+}
+
